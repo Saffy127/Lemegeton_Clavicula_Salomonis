@@ -1,9 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 20px;
+    background-color: #282c34;
+    color: #ffffff;
 }
 
-#demonInfo {
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #20232a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.summon-button {
+    background-color: #61dafb;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.summon-button:hover {
+    background-color: #4fa8d8;
+}
+
+.demon-info {
     margin-top: 20px;
+    padding: 10px;
+    background-color: #33373e;
+    border-radius: 4px;
+    color: #61dafb;
+}
+
+h1 {
+    color: #61dafb;
 }
