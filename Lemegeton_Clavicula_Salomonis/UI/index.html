@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon Summoner</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <div id="app">
-        <button onclick="summonDemon()">Summon a Demon</button>
-        <div id="demonInfo"></div>
+    <div id="app" class="app-container">
+        <h1>Demon Summoner</h1>
+        <button class="summon-button" onclick="summonDemon()">Summon a Demon</button>
+        <div id="demonInfo" class="demon-info"></div>
     </div>
     <script src="/static/script.js"></script>
 </body>
